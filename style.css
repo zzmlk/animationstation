@@ -1,0 +1,117 @@
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Russo One', sans-serif;
+        background-color: black;
+    }
+    /* Index-homepage-layout */
+    
+    .test {
+        color: white;
+    }
+    
+    section {
+        position: relative;
+        width: 100%;
+        height: 87vh;
+        overflow: hidden;
+    }
+    
+    section .scroll {
+        width: 100%;
+        display: flex;
+    }
+    
+    section .scroll div {
+        color: #000;
+        font-size: 4em;
+        letter-spacing: 0.2rem;
+        background: #fff;
+        white-space: nowrap;
+        font-weight: 900;
+        text-transform: uppercase;
+        -webkit-animation: animate 20s linear 0s infinite;
+        animation: animate 20s linear 0s infinite;
+    }
+    
+    section .text2 div {
+        background: red;
+    }
+    
+    @keyframes animate {
+        0% {
+            transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);
+            -moz-transform: translateX(-200%);
+            -ms-transform: translateX(-200%);
+            -o-transform: translateX(-200%);
+        }
+    }
+    
+    section .scroll.text1 {
+        transform: rotate(30deg) translateY(250px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(30deg) translateY(250px) translateX(200px);
+        -moz-transform: rotate(30deg) translateY(250px) translateX(200px);
+        -ms-transform: rotate(30deg) translateY(250px) translateX(200px);
+        -o-transform: rotate(30deg) translateY(250px) translateX(200px);
+    }
+    
+    section .scroll.text2 {
+        transform: rotate(-30deg) translateY(100px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-30deg) translateY(100px) translateX(200px);
+        -moz-transform: rotate(-30deg) translateY(100px) translateX(200px);
+        -ms-transform: rotate(-30deg) translateY(100px) translateX(200px);
+        -o-transform: rotate(-30deg) translateY(100px) translateX(200px);
+    }
+    
+    section .scroll.text3 {
+        transform: rotate(25deg) translateY(350px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(25deg) translateY(350px) translateX(200px);
+        -moz-transform: rotate(25deg) translateY(350px) translateX(200px);
+        -ms-transform: rotate(25deg) translateY(350px) translateX(200px);
+        -o-transform: rotate(25deg) translateY(350px) translateX(200px);
+    }
+    
+    section .scroll.text4 {
+        transform: rotate(-2deg) translateY(-100px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-2deg) translateY(-100px) translateX(200px);
+        -moz-transform: rotate(-2deg) translateY(-100px) translateX(200px);
+        -ms-transform: rotate(-2deg) translateY(-100px) translateX(200px);
+        -o-transform: rotate(-2deg) translateY(-100px) translateX(200px);
+    }
+    
+    section .scroll.text5 {
+        transform: rotate(20deg) translateY(400px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(20deg) translateY(400px) translateX(200px);
+        -moz-transform: rotate(20deg) translateY(400px) translateX(200px);
+        -ms-transform: rotate(20deg) translateY(400px) translateX(200px);
+        -o-transform: rotate(20deg) translateY(400px) translateX(200px);
+    }
+    
+    section .scroll.text6 {
+        transform: rotate(-20deg) translateY(50px) translateX(200px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-20deg) translateY(50px) translateX(200px);
+        -moz-transform: rotate(-20deg) translateY(50px) translateX(200px);
+        -ms-transform: rotate(-20deg) translateY(50px) translateX(200px);
+        -o-transform: rotate(-20deg) translateY(50px) translateX(200px);
+    }
+    
+    .player {
+        display: flex;
+        justify-content: space-around;
+    }
