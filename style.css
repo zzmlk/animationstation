@@ -15,7 +15,7 @@
     section {
         position: relative;
         width: 100%;
-        height: 87vh;
+        height: 100vh;
         overflow: hidden;
     }
     
@@ -58,57 +58,57 @@
     }
     
     section .scroll.text1 {
-        transform: rotate(30deg) translateY(250px) translateX(200px);
+        transform: rotate(30deg) translateY(15.625rem) translateX(15.625rem);
         box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(30deg) translateY(250px) translateX(200px);
-        -moz-transform: rotate(30deg) translateY(250px) translateX(200px);
-        -ms-transform: rotate(30deg) translateY(250px) translateX(200px);
-        -o-transform: rotate(30deg) translateY(250px) translateX(200px);
+        -webkit-transform: rotate(30deg) translateY(15.625rem) translateX(15.625rem);
+        -moz-transform: rotate(30deg) translateY(15.625rem) translateX(15.625rem);
+        -ms-transform: rotate(30deg) translateY(15.625rem) translateX(15.625rem);
+        -o-transform: rotate(30deg) translateY(15.625rem) translateX(15.625rem);
     }
     
     section .scroll.text2 {
-        transform: rotate(-30deg) translateY(100px) translateX(200px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(-30deg) translateY(100px) translateX(200px);
-        -moz-transform: rotate(-30deg) translateY(100px) translateX(200px);
-        -ms-transform: rotate(-30deg) translateY(100px) translateX(200px);
-        -o-transform: rotate(-30deg) translateY(100px) translateX(200px);
+        transform: rotate(-30deg) translateY(6.25rem) translateX(15.625rem);
+        box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-30deg) translateY(6.25rem) translateX(15.625rem);
+        -moz-transform: rotate(-30deg) translateY(6.25rem) translateX(15.625rem);
+        -ms-transform: rotate(-30deg) translateY(6.25rem) translateX(15.625rem);
+        -o-transform: rotate(-30deg) translateY(6.25rem) translateX(15.625rem);
     }
     
     section .scroll.text3 {
-        transform: rotate(25deg) translateY(350px) translateX(200px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(25deg) translateY(350px) translateX(200px);
-        -moz-transform: rotate(25deg) translateY(350px) translateX(200px);
-        -ms-transform: rotate(25deg) translateY(350px) translateX(200px);
-        -o-transform: rotate(25deg) translateY(350px) translateX(200px);
+        transform: rotate(25deg) translateY(22rem) translateX(15.625rem);
+        box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(25deg) translateY(22rem) translateX(15.625rem);
+        -moz-transform: rotate(25deg) translateY(22rem) translateX(15.625rem);
+        -ms-transform: rotate(25deg) translateY(22rem) translateX(15.625rem);
+        -o-transform: rotate(25deg) translateY(22rem) translateX(15.625rem);
     }
     
     section .scroll.text4 {
-        transform: rotate(-2deg) translateY(-100px) translateX(200px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(-2deg) translateY(-100px) translateX(200px);
-        -moz-transform: rotate(-2deg) translateY(-100px) translateX(200px);
-        -ms-transform: rotate(-2deg) translateY(-100px) translateX(200px);
-        -o-transform: rotate(-2deg) translateY(-100px) translateX(200px);
+        transform: rotate(-2deg) translateY(-6.25rem) translateX(15.625rem);
+        box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-2deg) translateY(-6.25rem) translateX(15.625rem);
+        -moz-transform: rotate(-2deg) translateY(-6.25rem) translateX(15.625rem);
+        -ms-transform: rotate(-2deg) translateY(-6.25rem) translateX(15.625rem);
+        -o-transform: rotate(-2deg) translateY(-6.25rem) translateX(15.625rem);
     }
     
     section .scroll.text5 {
-        transform: rotate(20deg) translateY(400px) translateX(200px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(20deg) translateY(400px) translateX(200px);
-        -moz-transform: rotate(20deg) translateY(400px) translateX(200px);
-        -ms-transform: rotate(20deg) translateY(400px) translateX(200px);
-        -o-transform: rotate(20deg) translateY(400px) translateX(200px);
+        transform: rotate(20deg) translateY(25rem) translateX(15.625rem);
+        box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(20deg) translateY(25rem) translateX(15.625rem);
+        -moz-transform: rotate(20deg) translateY(25rem) translateX(15.625rem);
+        -ms-transform: rotate(20deg) translateY(25rem) translateX(15.625rem);
+        -o-transform: rotate(20deg) translateY(25rem) translateX(15.625rem);
     }
     
     section .scroll.text6 {
-        transform: rotate(-20deg) translateY(50px) translateX(200px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        -webkit-transform: rotate(-20deg) translateY(50px) translateX(200px);
-        -moz-transform: rotate(-20deg) translateY(50px) translateX(200px);
-        -ms-transform: rotate(-20deg) translateY(50px) translateX(200px);
-        -o-transform: rotate(-20deg) translateY(50px) translateX(200px);
+        transform: rotate(-20deg) translateY(3rem) translateX(15.625rem);
+        box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, .5);
+        -webkit-transform: rotate(-20deg) translateY(3rem) translateX(15.625rem);
+        -moz-transform: rotate(-20deg) translateY(3rem) translateX(15.625rem);
+        -ms-transform: rotate(-20deg) translateY(3rem) translateX(15.625rem);
+        -o-transform: rotate(-20deg) translateY(3rem) translateX(15.625rem);
     }
     
     .player {
